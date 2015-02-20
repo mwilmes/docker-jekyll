@@ -28,6 +28,7 @@ sudo docker run -d -v "$PWD:/src" -p 4000:4000 grahamc/jekyll serve -H 0.0.0.0
  - Supports Kramdown
  - Supports RDiscount
  - Supports Rouge
+ - Supports Asciidoctor (_plugins/jekyll-asciidoc.rb necessary in project)
 
 
 # License: Public Domain
