@@ -14,7 +14,8 @@ RUN gem install \
   jekyll-redirect-from \
   kramdown \
   rdiscount \
-  rouge
+  rouge \
+  asciidoctor
 
 VOLUME /src
 EXPOSE 4000
