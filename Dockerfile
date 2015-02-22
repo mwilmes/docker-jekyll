@@ -15,7 +15,8 @@ RUN gem install \
   kramdown \
   rdiscount \
   rouge \
-  asciidoctor
+  asciidoctor \
+  coderay
 
 VOLUME /src
 EXPOSE 4000
