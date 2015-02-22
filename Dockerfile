@@ -16,7 +16,9 @@ RUN gem install \
   rdiscount \
   rouge \
   asciidoctor \
-  coderay
+  pygments.rb \
+  coderay \
+  jekyll-tagging
 
 VOLUME /src
 EXPOSE 4000
